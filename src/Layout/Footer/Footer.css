@@ -1,0 +1,39 @@
+:root {
+  --footer-background: white;
+  --footer-font-color: black;
+}
+
+.footer-container {
+  background: var(--footer-background);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+}
+
+.footer-container a {
+  color: var(--footer-font-color);
+}
+
+.footer-container p {
+  font-size: 0.875rem;
+}
+
+.footer-website-links-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-website-links-col {
+  padding: 0 2rem;
+}
+
+.footer-website-links-col a {
+  color: var(--footer-font-color);
+  text-decoration: none;
+}
+
+.footer-website-links-col p:first-child {
+  font-weight: 900;
+  text-align: center;
+}
