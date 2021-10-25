@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+import ewhan_profile_pic from '../../assets/pictures/ewhan_han_profile_picture.jpg'
 
 import './About.css';
 
@@ -11,8 +12,8 @@ const About = () => {
       <div className='profile-container'>
         <div className='profile-details'>
           <img
-            src='https://static.wixstatic.com/media/2e2a49_bd3a1599bc1b4265a01b2754b99b8536~mv2_d_5760_3840_s_4_2.jpeg/v1/crop/x_2703,y_43,w_2199,h_2205/fill/w_205,h_205,al_c,q_80,usm_0.66_1.00_0.01/AdobeStock_230407429.webp'
-            alt='test'
+            src={ewhan_profile_pic}
+            alt='ewhanhan'
             width='205'
             height='205'
           />
